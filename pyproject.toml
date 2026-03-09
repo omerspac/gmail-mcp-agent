@@ -1,0 +1,14 @@
+[project]
+name = "gmail-mcp-agent"
+version = "0.1.0"
+description = "AI-powered Gmail assistant using MCP and OpenAI Agents"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.1.0",
+    "openai-agents>=0.11.1",
+    "google-api-python-client>=2.0.0",
+    "google-auth-oauthlib>=1.0.0",
+    "google-auth-httplib2>=0.1.0",
+    "python-dotenv>=1.0.0",
+]
